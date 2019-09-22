@@ -1,12 +1,13 @@
 .grid {
     display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-div {
+.grid div {
     background: #ecf0f1;
     padding: 1em;
 }
-div:hover {
+.grid div:hover {
 
     border: 1px solid #f1c40f;
 }
